@@ -8,8 +8,9 @@ body {
     background-color: #d7d9db;
     font-family: Manrope;
 }
+
 header {
-    height: 2vw;
+    height: 4vw;
     width: 100%;
     background-color: white;
     padding: 1vw;
@@ -20,56 +21,66 @@ header {
 main {
     margin: 0 25% 0 25%;
     border: thin #d7d9db solid;
-    padding 5px;
     background-color: white;
+}
+
+.seccion-insta-earth {
+    padding: 5vw 2vw 0 2vw;
+    line-height: 1.5em;
+    display: flex;
+}
+.image-and-title {
+    width: 75%;
+    display: flex;
 }
 
 .circle-image-earth {
     border-radius: 50%;
     width: 40px;
     height: 40px;   
-    float: left;
     margin-right: 1vw;
     margin-left: 1vw;
 }
 
-.seccion-insta-earth {
-    padding-top: 5vw;
-    padding-left: 2vw;
-    line-height: 1.5em;
+.earth-account {
     display: flex;
+    flex-direction: column;
 }
-.image-and-title {
-    width: 50%;
-    display: flex;
-}
+
 .dots {
-    width: 50%;
+    width: 25%;
+    margin-right: 1vw;
+    margin-left: 1vw;
     display: flex;
     justify-content: flex-end;
 
 }
-
-
-/* .fa-ellipsis-h {
-    display: flex;
-    justify-content: flex-end;
-} */
 
 .san-fran-image {
+    height: 100%;
     padding: 1vw 2.5vw 0.5vw 2.5vw;
-    line-height: 1.5em;
 }
 
 .fa-icons {
-    padding-left: 2.5vw;
+    padding-left: 3vw;
     padding-right: 3vw;
+    display: flex;
+}
+
+.heart-comment-plane {
+    width: 25%;
     display: flex;
     justify-content: space-between;
 }
-.fa-tag {
-    flex-grow: 0.75;
-    text-align: end;
+
+.bookmark {
+    width: 75%;
+    display: flex;
+    justify-content: flex-end;
+}
+
+.bold-text {
+    font-weight: bold;
 }
 
 .below-picture {
@@ -85,7 +96,20 @@ main {
 .comments {
     padding-left: 2vw;
 }
-span {
-    background-color: purple;
+.comment-1 {
+    display: flex;
+}
+.comment-2 {
+    display: flex;
+}
+
+.text {
+    width: 75%;
+    display: flex;
+}
+
+.heart-in-comment {
+    width: 25%;
+    text-align: right;
 }
 
