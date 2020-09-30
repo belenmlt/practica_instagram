@@ -110,6 +110,7 @@ main {
 
 .heart-in-comment {
     width: 25%;
-    text-align: right;
+    display: flex;
+    justify-content: flex-end;
 }
 
